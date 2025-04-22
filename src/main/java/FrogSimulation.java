@@ -35,11 +35,12 @@ count += hopDistance();
 				success++;
 					}
 			sun = success/ num;
-			return sun;
+			
 			
 		
 
 	}
+		return sun;
 	}
 	
 	
