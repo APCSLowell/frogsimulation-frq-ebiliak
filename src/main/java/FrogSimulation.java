@@ -30,7 +30,7 @@ count += hopDistance;
 	{ 
 		int success =0;
 		double sun = 0;
-		if(int i = 0; i < num; i ++){
+		for(int i = 0; i < num; i ++){
 			if(simulate()){
 				sucess++;
 					}
