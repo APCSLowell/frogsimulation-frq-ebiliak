@@ -40,6 +40,7 @@ count += hopDistance;
 		
 
 	}
+	}
 	
 	
 	//ignore the code below this line
