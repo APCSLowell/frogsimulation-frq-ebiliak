@@ -29,12 +29,12 @@ count += hopDistance();
 	public double runSimulations(int num)
 	{ 
 		int success =0;
-		double sun = 0;
+	
 		for(int i = 0; i < num; i ++){
 			if(simulate()){
 				success++;
 					}
-			sun = success/ num;
+			return (double) success/num;
 			
 			
 		
