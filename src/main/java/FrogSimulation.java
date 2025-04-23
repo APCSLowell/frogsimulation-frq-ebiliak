@@ -22,6 +22,9 @@ count += hopDistance();
 		if(count >= goalDistance){
 			return true;
 		}
+		else if(count < 0){
+			return false;
+		}
 		return false;
 
 	}
