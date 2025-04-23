@@ -18,12 +18,13 @@ public class FrogSimulation
 		int count = 0;
 		for(int i = 0; i < maxHops; i++){
 count += hopDistance();
-		}
+		
 		if(count >= goalDistance){
 			return true;
 		}
 		else if(count < 0){
 			return false;
+		}
 		}
 		return false;
 
