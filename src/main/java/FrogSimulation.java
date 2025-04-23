@@ -34,13 +34,13 @@ count += hopDistance();
 			if(simulate()){
 				success++;
 					}
-			return (double) success/num;
+			
 			
 			
 		
 
 	}
-		return sun;
+		return (double) success/num;
 	}
 	
 	
